@@ -27,7 +27,7 @@ def register():
     age = int(input("Введите возраст: "))
     birth_date = input("Введите дату рождения: ")
     raiting = float(input("Оцените приложение: "))
-    is_activ = bool(input("Принятие соглашения о конфедициальности: "))
+    is_activ = bool(input("Принятие соглашения о конфиденциальности: "))
     print("Успешно зарегистрированы!")
     
     # cursor.execute("""INSERT INTO  instagram 
